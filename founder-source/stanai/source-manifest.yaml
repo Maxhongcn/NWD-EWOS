@@ -1,0 +1,38 @@
+capsule_id: nwd.stanai.leadership
+capsule_version: 1.0.0-berlin
+format_version: "0.1"
+
+entrypoint:
+  type: leadership_orchestrator
+  name: StanAI
+
+required_sources:
+  instructions:
+    - instructions/stanai-instructions.md
+
+  knowledge:
+    - knowledge/KB00-StanAI-Index-Router.txt
+    - knowledge/KB01-Brand-Identity.txt
+    - knowledge/KB02-New-WangDao-Core.txt
+    - knowledge/KB03-Multilingual-Tone.txt
+    - knowledge/KB04-Decision-Interface.txt
+    - knowledge/KB05-Stan-Shih-Authority.txt
+    - knowledge/KB06-Assembly-Safety.txt
+    - knowledge/KB07-Japan-Market.txt
+    - knowledge/KB08-English-Spanish.txt
+    - knowledge/KB09-Scenario-Pack.txt
+    - knowledge/KB10-Demo-Pack.txt
+    - knowledge/KB11-User-Manual.txt
+    - knowledge/KB12-QA-Gate.txt
+    - knowledge/KB13-Workshop-Mode.md
+    - knowledge/BIO-StanAI-Memory-Cards.txt
+
+reserved_capabilities:
+  - decision
+  - value
+  - organization_brain
+
+runtime:
+  execution_mode: local
+  cloud_reasoning_required: false
+  offline_capable: true

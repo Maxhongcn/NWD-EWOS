@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .DS_Store
 logs/*.log
+dist/*.cap
+founder-source/stanai/instructions/*
+!founder-source/stanai/instructions/.gitkeep
+founder-source/stanai/knowledge/*
+!founder-source/stanai/knowledge/.gitkeep
