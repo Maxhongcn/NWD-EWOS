@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EWOS Capsule Manifest",
+  "type": "object",
+  "required": ["id", "name", "version", "type", "capabilities"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "version": { "type": "string" },
+    "type": { "type": "string" },
+    "entrypoint": { "type": "string" },
+    "capabilities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "direct_database_access": { "type": "boolean" },
+    "status": { "type": "string" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "product": "NWD-EWOS",
+  "edition": "Berlin Demo",
+  "version": "0.1",
+  "licensee": "NWD Team",
+  "expires_at": "2027-12-31",
+  "features": [
+    "runtime",
+    "module_loader",
+    "config_loader",
+    "license_loader",
+    "rest_api",
+    "stanai_capsule_loader"
+  ]
+}

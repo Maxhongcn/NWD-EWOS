@@ -1,0 +1,14 @@
+{
+  "id": "stanai",
+  "name": "StanAI Leadership Orchestrator",
+  "version": "Berlin Demo v0.1",
+  "type": "leadership_orchestrator",
+  "entrypoint": "placeholder",
+  "capabilities": [
+    "leadership_query",
+    "capability_orchestration"
+  ],
+  "data_ownership": "none",
+  "direct_database_access": false,
+  "status": "placeholder"
+}

@@ -1,0 +1,18 @@
+modules:
+  - id: stanai
+    name: StanAI Leadership Orchestrator
+    type: leadership_orchestrator
+    capsule: capsules/stanai
+    enabled: true
+  - id: decision_engine
+    name: Decision Engine
+    type: reserved_interface
+    enabled: false
+  - id: value_engine
+    name: Value Engine
+    type: reserved_interface
+    enabled: false
+  - id: organization_brain
+    name: Organization Brain
+    type: reserved_interface
+    enabled: false

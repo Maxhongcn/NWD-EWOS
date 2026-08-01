@@ -1,0 +1,15 @@
+{
+  "product": "NWD-EWOS",
+  "version": "Berlin Demo v0.1",
+  "runtime": "python-fastapi",
+  "source_of_truth": "PROJECT.md",
+  "offline_reasoning": true,
+  "architecture": {
+    "leadership_layer": "StanAI",
+    "reserved_modules": [
+      "Decision Engine",
+      "Value Engine",
+      "Organization Brain"
+    ]
+  }
+}

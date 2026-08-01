@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EWOS Demo License",
+  "type": "object",
+  "required": ["product", "edition", "version", "licensee", "features"],
+  "properties": {
+    "product": { "type": "string" },
+    "edition": { "type": "string" },
+    "version": { "type": "string" },
+    "licensee": { "type": "string" },
+    "expires_at": { "type": "string" },
+    "features": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
